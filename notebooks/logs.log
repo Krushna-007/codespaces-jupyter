@@ -906,3 +906,58 @@ Increase the number of iterations (max_iter) or scale the data as shown in:
 2024-08-07 08:13:42,176:INFO:Light Gradient Boosting Machine Imported successfully
 2024-08-07 08:13:42,182:INFO:Starting cross validation
 2024-08-07 08:13:42,185:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-08-07 08:17:31,633:INFO:Calculating mean and std
+2024-08-07 08:17:31,634:INFO:Creating metrics dataframe
+2024-08-07 08:17:31,637:INFO:Uploading results into container
+2024-08-07 08:17:31,637:INFO:Uploading model into container now
+2024-08-07 08:17:31,638:INFO:_master_model_container: 17
+2024-08-07 08:17:31,638:INFO:_display_container: 2
+2024-08-07 08:17:31,638:INFO:LGBMRegressor(n_jobs=-1, random_state=123)
+2024-08-07 08:17:31,639:INFO:create_model() successfully completed......................................
+2024-08-07 08:17:31,739:INFO:SubProcess create_model() end ==================================
+2024-08-07 08:17:31,740:INFO:Creating metrics dataframe
+2024-08-07 08:17:31,750:INFO:Initializing Dummy Regressor
+2024-08-07 08:17:31,751:INFO:Total runtime is 4.090356989701589 minutes
+2024-08-07 08:17:31,754:INFO:SubProcess create_model() called ==================================
+2024-08-07 08:17:31,754:INFO:Initializing create_model()
+2024-08-07 08:17:31,754:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x732cb1026680>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x732cb03d4640>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-08-07 08:17:31,755:INFO:Checking exceptions
+2024-08-07 08:17:31,755:INFO:Importing libraries
+2024-08-07 08:17:31,755:INFO:Copying training dataset
+2024-08-07 08:17:31,759:INFO:Defining folds
+2024-08-07 08:17:31,759:INFO:Declaring metric variables
+2024-08-07 08:17:31,763:INFO:Importing untrained model
+2024-08-07 08:17:31,766:INFO:Dummy Regressor Imported successfully
+2024-08-07 08:17:31,772:INFO:Starting cross validation
+2024-08-07 08:17:31,774:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-08-07 08:17:32,172:INFO:Calculating mean and std
+2024-08-07 08:17:32,173:INFO:Creating metrics dataframe
+2024-08-07 08:17:32,175:INFO:Uploading results into container
+2024-08-07 08:17:32,176:INFO:Uploading model into container now
+2024-08-07 08:17:32,176:INFO:_master_model_container: 18
+2024-08-07 08:17:32,177:INFO:_display_container: 2
+2024-08-07 08:17:32,177:INFO:DummyRegressor()
+2024-08-07 08:17:32,177:INFO:create_model() successfully completed......................................
+2024-08-07 08:17:32,272:INFO:SubProcess create_model() end ==================================
+2024-08-07 08:17:32,272:INFO:Creating metrics dataframe
+2024-08-07 08:17:32,284:WARNING:/usr/local/python/3.10.13/lib/python3.10/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:323: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  master_display_.apply(
+
+2024-08-07 08:17:32,293:INFO:Initializing create_model()
+2024-08-07 08:17:32,294:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x732cb1026680>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-08-07 08:17:32,294:INFO:Checking exceptions
+2024-08-07 08:17:32,296:INFO:Importing libraries
+2024-08-07 08:17:32,296:INFO:Copying training dataset
+2024-08-07 08:17:32,299:INFO:Defining folds
+2024-08-07 08:17:32,300:INFO:Declaring metric variables
+2024-08-07 08:17:32,300:INFO:Importing untrained model
+2024-08-07 08:17:32,300:INFO:Declaring custom model
+2024-08-07 08:17:32,300:INFO:Extra Trees Regressor Imported successfully
+2024-08-07 08:17:32,302:INFO:Cross validation set to False
+2024-08-07 08:17:32,302:INFO:Fitting Model
+2024-08-07 08:17:32,498:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2024-08-07 08:17:32,498:INFO:create_model() successfully completed......................................
+2024-08-07 08:17:32,621:INFO:_master_model_container: 18
+2024-08-07 08:17:32,621:INFO:_display_container: 2
+2024-08-07 08:17:32,622:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2024-08-07 08:17:32,622:INFO:compare_models() successfully completed......................................
